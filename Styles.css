@@ -1,3 +1,85 @@
-h1 h2 h3 h4 h5 h6 {
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --purple: #5722CD;
+    --blue: #4845E4;
+    --pink: #ED4385;
+    --black: #0c0c0c;
+    --light-purple: #F2F0FF;
+    --light-grey: #F3F6F9;
+    --grey: #7A7A7A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--black);
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: var(--black);
+}
+
+
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+.outer-content-container {
+
+}
+
+.inner-content-container {
+
+}
+
+.header-navigation {
+
+}
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------- */
+
+header {
+    background-color: var(--blue);
+}
+
+/* --------------- 4.2 Introduction ------------- */
+
+#intro {
+
+}
+
+/* --------------- 4.3 Case-Studies ------------- */
+
+#case-studies {
+
+}
+
+/* --------------- 4.4 Services ------------- */
+
+#services {
+
+}
+
+/* --------------- 4.5 Contact Us ------------- */
+
+#contact-us {
+
+}
+
+/* --------------- 4.6 Footer ------------- */
+
+footer {
 
 }
